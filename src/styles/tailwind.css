@@ -1,0 +1,4 @@
+/* tailwindcss样式设置 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
