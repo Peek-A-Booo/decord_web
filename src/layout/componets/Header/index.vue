@@ -84,7 +84,7 @@
   const collapseMenu = () => emit('update:collapse', !props.collapse);
 
   const toGithub = () => {
-    console.log('跳转到github');
+    window.open('https://github.com/Peek-A-Booo/decord_web');
   };
 
   const handleSelect = (key: string | number) => {

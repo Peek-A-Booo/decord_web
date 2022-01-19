@@ -5,10 +5,6 @@ function pathResolve(dir: string) {
   return resolve(process.cwd(), '.', dir);
 }
 
-const _LSX_ = {
-  age: 22,
-};
-
 export default () => {
   return {
     resolve: {
