@@ -23,10 +23,10 @@
 
 <script setup lang="ts">
   import { ref } from 'vue';
-  import { Logo } from './componets/Logo';
-  import { Menu } from './componets/Menu';
-  import { Header } from './componets/Header';
-  import { Main } from './componets/Main';
+  import { Logo } from './components/Logo';
+  import { Menu } from './components/Menu';
+  import { Header } from './components/Header';
+  import { Main } from './components/Main';
 
   const collapse = ref(false);
 </script>

@@ -1,7 +1,7 @@
-import { App } from 'vue';
+import type { App } from 'vue';
 import router from './index';
 import { useAsyncRoute } from '@/store/route';
-import { RouteRecordRaw } from 'vue-router';
+import type { RouteRecordRaw } from 'vue-router';
 import { useTitle } from '@vueuse/core';
 import { useCookie } from '@hooks/useCookie';
 import { AuthEunm } from '@/enums/http';

@@ -2,7 +2,7 @@
   <div class="bg-no-repeat bg-contain bg-center flex h-screen login-bg justify-center items-center">
     <div class="h-96 w-96">
       <div class="flex mb-2 text-3xl justify-center">
-        <n-gradient-text>Decord</n-gradient-text>
+        <div class="bg-clip-text title">Decord</div>
       </div>
       <div class="flex text-sm mb-20 text-gray-500 justify-center">欢迎 welcome</div>
       <n-form label-placement="left" :model="form" ref="formRef" :rules="rules">
@@ -101,5 +101,11 @@
 <style lang="scss" scoped>
   .login-bg {
     background-image: url('@/assets/loginBg.svg');
+  }
+
+  .title {
+    color: #0000;
+    background-image: linear-gradient(252deg, rgba(24, 160, 88, 0.6) 0%, #18a058 100%);
+    font-weight: 500;
   }
 </style>

@@ -16,5 +16,9 @@ export default () => {
       dedupe: ['vue'],
     },
     plugins: [vue()],
+    server: {
+      host: true,
+      port: 3001,
+    },
   };
 };
